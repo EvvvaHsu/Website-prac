@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    color:rgba(4, 95, 175, 0.962);
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    line-height: 2;
+    /* 100%=16px=1em; if i want 80px, 80/16=5 */
+}
+
+h2 {
+    color:rgba(6, 114, 209, 0.962);
+    font-family: 'EB Garamond', serif;
+    font-size: 281%;
+    font-weight: normal;
+    /* 100%=16px=1em; if i want 45px, 45/16=2.81 */
+}
+
+h3 {
+    color: rgba(118, 182, 238, 0.962);
+    font-family: 'EB Garamond', serif;
+    font-size: 180%;
+    font-weight: normal;
+}
+
+h4 {
+    color:rgb(255, 253, 253);
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+p {
+    color: rgba(71, 70, 70, 0.874);
+    font-family: 'EB Garamond', serif;
+    margin-top: 0;
+    font-size: 125%;
+    font-weight: normal;
+    /* 100%=16px=1em; if i want 20px, 20/16=1.25 */
+}
+
+.profile {
+    margin-bottom: 100px;
+}
+
+.top-container {
+    background-color: rgb(153, 199, 240);
+    position:relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding: 100px;
+}
+
+.bottom-container {
+    background-color: rgb(13, 126, 224);
+    padding: 20px 0 20px 0;
+    line-height: 2;
+    
+}
+
+.Eva {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position:absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.dolphin {
+    float:left;
+    margin-right: 50px;
+    /* clear: this is much like anti-float */
+}
+
+.whale {
+    float:right;
+    margin-left: 50px;
+    /* clear: this is much like anti-float */
+}
+
+
+hr {
+    background-color: none;
+    border-style: dotted none none;
+    height: 0px;
+    border-color: rgb(224, 217, 217);
+    border-width: 10px;
+    width: 6%;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 1.5;
+}
+
+.skills {
+    padding: 40px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.contact-me {
+    padding: 40px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(4, 95, 175, 0.962);
+}
+
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+
+  .btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.hey {
+    margin-bottom: 100px;
+}
